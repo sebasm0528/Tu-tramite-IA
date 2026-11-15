@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tu Trámite IA: asistente virtual para consultar trámites y servicios públicos.">
+    <title>Tu Trámite IA</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Source+Serif+4:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./images/LogoRobot.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Start - Section Header -->
+    <header class="site-header" id="inicio">
+        <nav class="navbar">
+            <a class="navbar__brand" href="#">
+                <img src="./images/LogoRobot.png" alt="Logo Robot" class="navbar__logo">
+                <span>Tu Trámite IA</span>
+            </a>
+
+            <button class="navbar__toggle" id="menu-toggle" type="button">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="navbar__menu" id="navbar-menu">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Servicios</a>
+                <a href="#">Asistente IA</a>
+                <a href="#">Contacto</a>
+                <a href="#" class="button button--login">
+                    <img src="./images/login.png" alt="login">
+                    <span>Iniciar sesión</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <!-- End - Section Header -->
+
+
+    <main>
+        <!-- Start - Section Main -->
+        <section class="hero">
+            <div class="hero__robot-container">
+                <img src="./images/robot.png" alt="robot" class="hero__robot-img">
+            </div>
+
+            <div class="hero__content">
+                <div class="hero__message">
+                    <img src="./images/mensaje.png" alt="mensaje" class="hero__message-image">
+                </div>
+
+                <div class="hero__features">
+                    <article class="hero-feature">
+                        <img src="./images/rayo.png" alt="rayo">
+                        <h2>Respuestas rápidas</h2>
+                    </article>
+                    <article class="hero-feature hero-feature--middle">
+                        <img src="./images/info.png" alt="info">
+                        <h2>Información oficial</h2>
+                    </article>
+                    <article class="hero-feature">
+                        <img src="./images/24_7.png" alt="24_7">
+                        <h2>Disponible 24/7</h2>
+                    </article>
+                </div>
+                <a href="#" class="button hero__cta">Consultar ahora</a>
+            </div>
+        </section>
+        <!-- End - Section Main -->
+
+
+        <!-- Start - Section About -->
+        <section class="about section" id="nosotros">
+            <div class="about__container">
+                <div class="about__content">
+                    <span class="section-kicker">Sobre nosotros</span>
+                    <h2 class="section-title">¿Por qué elegir <span>Tu Trámite IA?</span></h2>
+                    <p class="about__description">
+                        Sabemos que encontrar información sobre trámites y servicios públicos puede ser complicado.
+                        Por eso creamos un asistente virtual que utiliza inteligencia artificial para orientarte,
+                        resolver tus dudas y ayudarte a encontrar información de manera fácil y rápida.
+                    </p>
+                    <a href="#" class="text-link button">Conoce nuestros servicios</a>
+                </div>  
+                <div class="about__image-container">
+                    <img src="./images/robot2.png" alt="Robot2" class="about__image">
+                </div>
+            </div>
+
+            <div class="about__features">
+                <article class="about-card">
+                    <div class="about-card__icon">
+                        <img src="./images/rayo2.png" alt="rayo2">
+                    </div>
+                    <div>
+                        <h3>Fácil de utilizar</h3>
+                        <p>Realiza consultas utilizando lenguaje sencillo.</p>
+                    </div>
+                </article>
+                <article class="about-card">
+                    <div class="about-card__icon">
+                        <img src="./images/reloj.png" alt="reloj">
+                    </div>
+                    <div>
+                        <h3>Ahorra tiempo</h3>
+                        <p>Encuentra orientación sin búsquedas complicadas.</p>
+                    </div>
+                </article>
+                <article class="about-card">
+                    <div class="about-card__icon">
+                        <img src="./images/escudo.png" alt="escudo">
+                    </div>
+                    <div>
+                        <h3>Mayor confianza</h3>
+                        <p>Consulta información basada en fuentes oficiales.</p>
+                    </div>
+                </article>
+                <article class="about-card">
+                    <div class="about-card__icon">
+                        <img src="./images/iconRobot.png" alt="iconRobot">
+                    </div>
+                    <div>
+                        <h3>Asistencia inteligente</h3>
+                        <p>Obtén respuestas mediante inteligencia artificial.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- End - Section About -->
+
+
+        <!-- Start - Section Services -->
+        <section class="services section" id="servicios">
+            <div class="section-heading">
+                <span class="section-kicker">Lo que necesitas, en un solo lugar</span>
+                <h2 class="section-title">Trámites y servicios <span>más consultados</span></h2>
+                <p>Encuentra una guía inicial para los trámites públicos más solicitados.</p>
+            </div>
+
+            <div class="services__layout">
+                <div class="services__popular">
+                    <h3 class="subheading">Trámites más consultados</h3>
+                    <a class="service-row" href="#">
+                        <span class="service-row__icon service-row__icon--dark"><img src="./images/ID.png" alt="ID"></span>
+                        <span class="service-row__text"><strong>Cédula de identidad</strong><small>Consulta requisitos, costos y pasos para renovar tu cédula.</small></span>
+                        <span class="service-row__arrow">›</span>
+                    </a>
+                    <a class="service-row" href="#">
+                        <span class="service-row__icon service-row__icon--dark"><img src="./images/documento.png" alt="documento"></span>
+                        <span class="service-row__text"><strong>Certificados</strong><small>Infórmate sobre certificados de nacimiento, matrimonio y más.</small></span>
+                        <span class="service-row__arrow">›</span>
+                    </a>
+                    <a class="service-row" href="#">
+                        <span class="service-row__icon service-row__icon--dark"><img src="./images/carro.png" alt="carro"></span>
+                        <span class="service-row__text"><strong>Licencias de conducir</strong><small>Conoce los requisitos para obtener o renovar tu licencia.</small></span>
+                        <span class="service-row__arrow">›</span>
+                    </a>
+                </div>
+
+                <div class="services__categories">
+                    <h3 class="subheading">Servicios públicos</h3>
+                    <div class="category-grid">
+                        <a href="#" class="category-card">
+                            <span class="category-card__symbol category-card__symbol--blue"><img src="./images/persona.png" alt="persona"></span>
+                            <span><strong>Identificación y Registros</strong><small>Cédula, pasaporte y registros civiles.</small></span>
+                        </a>
+                        <a href="#" class="category-card">
+                            <span class="category-card__symbol category-card__symbol--red"><img src="./images/corazon.png" alt="corazon"></span>
+                            <span><strong>Salud</strong><small>Afiliación, citas y servicios de salud.</small></span>
+                        </a>
+                        <a href="#" class="category-card">
+                            <span class="category-card__symbol category-card__symbol--black"><img src="./images/educacion.png" alt="educacion"></span>
+                            <span><strong>Educación</strong><small>Matrículas, títulos y becas.</small></span>
+                        </a>
+                        <a href="#" class="category-card">
+                            <span class="category-card__symbol category-card__symbol--black"><img src="./images/casa.png" alt="casa"></span>
+                            <span><strong>Otros servicios</strong><small>Agua potable, luz eléctrica y transporte.</small></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End - Section Services -->
+
+
+        <!-- Start - Section App -->
+        <section class="app-section section" id="asistente">
+            <div class="app-section__intro">
+                <span class="section-kicker">Tu asistente virtual</span>
+                <h2 class="section-title">Conversa con <span>Tu Trámite IA</span></h2>
+                <p>Escribe tu consulta y recibe orientación para saber dónde empezar y qué información necesitas.</p>
+                <ul class="app-benefits">
+                    <li>✓ Consultas en lenguaje natural</li>
+                    <li>✓ Orientación clara y sencilla</li>
+                    <li>✓ Disponible en cualquier momento</li>
+                </ul>
+            </div>
+
+            <div class="chat-card">
+                <div class="chat-card__header">
+                    <img src="./images/CabezaRobot.png" alt="">
+                    <div><strong>Asistente virtual</strong></div>
+                </div>
+                <div class="chat-card__body" id="chat-messages">
+                    <div class="chat-message chat-message--bot">
+                        ¡Hola! 👋 Soy tu asistente virtual. Escribe tu consulta sobre trámites o servicios públicos.
+                    </div>
+                </div>
+                <form class="chat-form" id="chat-form">
+                    <input id="chat-input" type="text" placeholder="Ej. ¿Qué necesito para renovar mi cédula?" required>
+                    <button class="button" type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <!-- End - Section App -->
+
+
+        <!-- Start - Section Gallery -->
+        <!-- End - Section Gallery -->
+
+
+        <!-- Start - Section Contact -->
+        <section class="contact section" id="contacto">
+            <div class="contact__intro">
+                <span class="section-kicker">Estamos para ayudarte</span>
+                <h2 class="section-title">¿Tienes alguna <span>pregunta?</span></h2>
+                <p>Envíanos un mensaje o utiliza el asistente virtual para resolver tus dudas.</p>
+                <div class="contact__details">
+                    <p><span>✉</span> soporte@tutramiteia.com</p>
+                    <p><span>◷</span> Atención virtual las 24 horas</p>
+                    <p><span>⌖</span> Ecuador</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="contact-name">Nombre</label>
+                        <input id="contact-name" name="nombre" type="text" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="contact-email">Correo electrónico</label>
+                        <input id="contact-email" name="correo" type="email" placeholder="nombre@correo.com" required>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <label for="contact-subject">Asunto</label>
+                    <input id="contact-subject" name="asunto" type="text" placeholder="Motivo de tu consulta" required>
+                </div>
+                <div class="form-field">
+                    <label for="contact-message">Mensaje</label>
+                    <textarea id="contact-message" name="mensaje" rows="5" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                </div>
+                <button class="button" type="submit">Enviar mensaje</button>
+                <p class="form-feedback" id="contact-feedback" role="status"></p>
+            </form>
+        </section>
+    </main>
+        <!-- End - Section Contact -->
+
+
+    <!-- Start - Section Footer -->
+    <footer class="site-footer">
+        <div class="footer__main">
+            <a class="footer__brand" href="#">
+                <img src="./images/LogoRobot.png" alt="LogoRobot">
+                <span>Tu Trámite IA</span>
+            </a>
+            <p>Tu aliado digital para consultar trámites y servicios públicos de forma fácil y rápida.</p>
+            <div class="footer__socials">
+                <a href="#"><img src="./images/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./images/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="./images/TikTok.png" alt="TikTok"></a>
+            </div>
+        </div>
+        <div class="footer__links">
+            <h3>Explora</h3>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Servicios</a>
+            <a href="#">Asistente virtual</a>
+        </div>
+        <div class="footer__links">
+            <h3>Ayuda</h3>
+            <a href="#">Contáctanos</a>
+            <a href="#">Preguntas frecuentes</a>
+            <a href="#">Soporte</a>
+        </div>    
+        <div class="footer__bottom">
+            <span>© 2026 Tu Trámite IA. Todos los derechos reservados.</span>
+            <a href="#">Volver arriba ↑</a>
+        </div>
+    </footer>
+    <!-- End - Section Footer -->
+
+</body>
+</html>
